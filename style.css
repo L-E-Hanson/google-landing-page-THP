@@ -1,0 +1,38 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 100px;
+}
+
+.search {
+  text-align: center;
+}
+
+.search-bar {
+  padding-bottom: 10px;
+}
+
+#bottom-nav {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: lightgray;
+}
+
+.push {
+  margin-left: 60px;
+}
